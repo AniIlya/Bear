@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left{
+width: 25%;
+height: 100vh;
+overflow: hidden;
+
+}
+.right{
+    width: 75%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #d3d0d083;
+    justify-content: center;
+}
+.user{
+    
+    width: 80%;
+    justify-content: center;
+}
+img.user{
+    width: 60%;
+ margin: 20px;
+ border-radius: 4px;
+
+}
+h2.user{
+    font-weight: 500;
+    font-size: 15px 20px;
+    margin: 20px;
+   
+}
+h2.grey{
+    font-size: 15px;
+font-weight: 500;
+margin: 15px 20px;
+color: grey;
+line-height: 1.5;
+}
+.bar{
+    margin: 20px;
+}
+ul{
+    list-style-type: none;
+}
+i.green{
+    color: aquamarine;
+}
+i:hover{
+    color: lightgrey;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+i.user{
+    width: 20px;
+}
+i.user:hover{
+    color: black;
+}
+li{
+    padding: 8px 0;
+}
+a.green{
+    color: aquamarine;
+}
+a:hover{
+    color: black;
+}
+li:hover{
+    background-color: white;
+}
+li:hover a{
+    background-color: rgb(168, 168, 171);
+}
+
+.bottom{
+    margin: 18px;
+}
+h1.big{
+    font-size: 39px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.top{
+    width: 94%;
+/* padding: 16px; */
+    height: 18vh;
+    justify-content: center;
+    margin-top: 20px; 
+    margin-left: 20px;
+}
+button.black{
+    color: white;
+    background-color: black;
+    padding: 5px 15px;
+    margin: 5px;
+}
+button{
+    background-color: white;
+    border: none;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+button:hover{
+    background-color: lightgrey;
+    color: black;
+
+}
+span{
+    font-size: 18px;
+}
+hr{
+    border: 2px solid lightgrey;
+    margin-top: 20px;
+}
+.body{
+    display: flex;
+}
+.foto{
+    width: 30%;
+    height: 60vh;
+    background-color: white;
+    margin-left: 20px;
+margin-bottom: 20px;
+}
+img{
+    width: 100%;
+}
+h2{
+    margin: 15px 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+p{
+    margin: 15px 10px;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+img:hover{
+    opacity: 0.75;
+}
+.spisok{
+    display: flex;
+    justify-content: center;
+    width:92%;
+    padding: 35px ;
+    border-bottom: 1px solid rgb(191, 187, 187);
+}
+ul.spis{
+    list-style-type: none;
+    display: flex;
+
+}
+a.aa{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    }
+    a.aa:hover{
+        background-color: black;
+        color: aliceblue;
+    }
+    a.a1{
+        background-color: black;
+        color: aliceblue;
+        padding: 15px;
+        text-decoration: none;
+    }
+    .aboutme{
+        width: 100%;
+        height: auto;
+    }
+    img.about{
+        width: 48%;
+        margin-left: 10px;
+        opacity: 1;
+    }
+    h5{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.5;
+        margin: 20px;
+    }
+    p.me{
+        font-size: 15px;
+        line-height: 1.5;
+        margin-left: 15px;
+    }
+    .skills{
+        margin: 20px;
+    }
+h4.skill{
+    font-size: 20px;
+    font-weight: 400;
+}
+.percent95{
+    margin-bottom: 20px;
+    background-color: rgb(216, 212, 212);
+
+}
+p.procent{
+    font-size: 18px;
+    margin: 20px;
+
+}
+.percent95 p{
+    width: 95%;
+    text-align: center;
+    color: white;
+    background-color: rgb(92, 92, 92);
+    padding: 10px;
+    
+}
+.percent85{
+    margin-bottom: 25px;
+    background-color:rgb(216, 212, 212) ;
+}
+.percent85 p{
+    width: 85%;
+    text-align: center;
+    color: white;
+    background-color: rgb(92, 92, 92);
+    padding: 10px;
+}
+.percent80{
+    
+    background-color:lightgrey ;
+    margin-bottom: 25px;
+}
+.percent80 p{
+    width: 80%;
+    text-align: center;
+    color:white;
+    background-color: rgb(92, 92, 92);
+    padding: 10px;
+}
+button.procent{
+    margin: 20px;
+    background-color:rgb(92, 92, 92) ;
+    border:none;
+    padding: 5px 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+button.procent:hover{
+    color: black;
+    background-color: lightgrey;
+}
+.end{
+    width: 100%;
+    margin: 10px;
+    
+height: auto;
+display: flex;
+}
+.element{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 33%;
+
+    border: 0.7px solid rgb(132, 129, 129);
+    opacity: 0.6;
+     background-color: white;
+}
+.element:hover{
+    opacity: 1;
+}
+p.tap{
+     /* width: 100%;  */
+    /* height: 10vh; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    /* padding: 10px 0; */
+
+}
+p.aaa{
+    border-bottom: 0.8px solid rgb(128, 126, 126);
+    padding: 10px;
+    text-align: center;
+   
+}
+p.bbb{
+    font-size: 36px;
+    text-align: center;
+    border-bottom: 0.8px solid rgb(158, 151, 151);
+}
+br{
+    font-size: 12px;
+}
+button.sign{
+    border: none;
+    background-color: aquamarine;
+    width: 50%;
+    margin: 25%;
+
+}
+p.topp{
+    background-color:aquamarine;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
